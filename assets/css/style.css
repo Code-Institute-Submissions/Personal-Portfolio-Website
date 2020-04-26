@@ -1,13 +1,35 @@
 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Acme", Arial;
+    font-weight: 400;
+    line-height: 1.8 em;
+    color: #383636;
+}
+
+.imgMarjolein {
+    background-image: url('../assets/images/MarjoleinvanLeeuwen.jpg');
+    min-height: 100%;   
+}
+
+.imgWork {
+    background-image: url('https://ad629447-c5f9-4e09-9e91-9af475af386a.ws-eu01.gitpod.io/files/download/?id=80f5c03a-1747-426d-9c03-505f412b9b06');
+    min-height: 500px;
+}
+
+.imgSkills {
+    background-image: url('../assets/images/everyonecancode.jpg');
+    min-height: 500px;
+}
+
+.imgContact {
+    background-image: url('../assets/images/macbook pro and keyboard.jpg');
+    min-height: 100%;
+}
+
+
 
 
 /* ----------------------------------------Media Queries */
-
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-}
