@@ -1,39 +1,81 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+README.md File
 
-Welcome Sweetzia,
+Marjolein van Leeuwen portfolio website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+First Milestone Project: User Centric Frontend Development - Code Institute
 
-## Gitpod Reminders
+This personal portfolio website is a display for prospective employers. It’s my way to make a good first impression and help me, put my work “out there”. Because my native language is Dutch, I made it an English/Dutch portfolio website. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Demo
 
-`python3 -m http.server`
+A live demo can be found through this  [link](http://a.com)here.
+—————————————————————
 
-A blue button should appear to click: *Make Public*,
+User stories
 
-Another blue button should appear to click: *Open Browser*.
+Employers and recruiters can see Marjoleins cv and coding skills in this portfolio website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+—————screenshots work and CV————
+Strategy
+Create a clean design that draws attention and is easy for users.
 
-A blue button should appear to click: *Make Public*,
+Scope
+My goal for this website is to provide employers and recruiters a brief overview of myself and my skills. The users get a glimpse of who I am, read my story, see my coding skills and how to contact me, if they want.
 
-Another blue button should appear to click: *Open Browser*.
+Structure
+* In the home section, its possible to download my cv.  You can see through a …… that I am Marjolein,a nurse and learning to code.
+* In the about section you read my personal story 
+* In the work section you see my two projects I made during my fullstack development course for Code Institute
+* In the Skills section, you see five coding languages I learned or will learn during my fullstack development course at Code Institute and how far my progress is.
+* In the last section: Contact me through a form or Social Media
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+Skeleton 
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* Homepage wireframe
+* About wireframe
+* Work wireframe
+* Skills wireframe
+* Contact wireframe
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Surface: The melissa effect (pixlr.com) was chosen to make a warm and retro feel for the users. And I chose the font Acme, because I like that is is inspired by the visual language of classic cartoons and comics.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Technologies
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. HTML
+2. CSS
+3. Bootstrap (4.4)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Features
 
---------
+This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design. (Haley Schafer)
 
-Happy coding!
+Testing
+Provide a brief explanation of your approach, link to the test files and explain how to run them.
+
+Mention in his section how your project looks and works on different browsers and screen sizes.
+Mention any interesting bugs or problems you discoverd during your testing
+
+Deployment
+This site is hosted using GitHub pages
+
+Credits
+
+Content
+All content in the "About/over my and "Work/Werk” sections in this portfolio site were written by me.
+
+Media
+
+All photos wee taken from unsplashed or pexel, a stock image libary, with the exception of the photo of myself in the background of the 'about/over my’ section in the desktop view. A pinkscale filter was applied to each one prior to upload to preserve the pinkscale theme.
+
+Photo 1 : Picture of Marjolein made by Darinde Heerema
+
+
+Photo 2: Pink Macbook by Belo Rio Studio on Unsplash
+
+Photo 3: Macbook with keyboard by Jealous Weekends on Unsplash
+
+Photo 4: Everyone can code by Adi Goldstein on Unsplash
+
+Acknowledgements
+I got inspiration from the example project of Haley Schafer and the youtube tutorial from Traversy Media about making a basic parallax website with HTML and CSS . Both websites websites looked clean, beautiful and professional. 

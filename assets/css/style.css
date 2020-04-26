@@ -15,7 +15,7 @@ body, html {
 }
 
 .imgWork {
-    background-image: url('https://ad629447-c5f9-4e09-9e91-9af475af386a.ws-eu01.gitpod.io/files/download/?id=80f5c03a-1747-426d-9c03-505f412b9b06');
+    background-image: url('../assets/images/pinkmacbook.jpg');
     min-height: 500px;
 }
 
@@ -25,7 +25,7 @@ body, html {
 }
 
 .imgContact {
-    background-image: url('../assets/images/macbook pro and keyboard.jpg');
+    background-image: url('../assets/images/macbook pro and keyboard-unsplash.jpg');
     min-height: 100%;
 }
 
