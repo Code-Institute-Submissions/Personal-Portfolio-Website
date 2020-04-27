@@ -9,23 +9,32 @@ body, html {
     color: #383636;
 }
 
+.imgMarjolein, .imgWork, .imgSkills, .imgContact {
+    position: relative;
+    opacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
 .imgMarjolein {
-    background-image: url('../assets/images/MarjoleinvanLeeuwen.jpg');
+    background-image: url('../images/img1.jpg');
     min-height: 100%;   
 }
 
 .imgWork {
-    background-image: url('../assets/images/pinkmacbook.jpg');
+    background-image: url('../images/img2.jpg');
     min-height: 500px;
 }
 
 .imgSkills {
-    background-image: url('../assets/images/everyonecancode.jpg');
+    background-image: url('../images/img3.jpg');
     min-height: 500px;
 }
 
 .imgContact {
-    background-image: url('../assets/images/macbook pro and keyboard-unsplash.jpg');
+    background-image: url('../images/img4.jpg');
     min-height: 100%;
 }
 
