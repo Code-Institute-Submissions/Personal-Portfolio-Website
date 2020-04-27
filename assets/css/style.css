@@ -11,7 +11,7 @@ body, html {
 
 .imgMarjolein, .imgWork, .imgSkills, .imgContact {
     position: relative;
-    opacity:0.70;
+    opacity: 0.75;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,7 +38,31 @@ body, html {
     min-height: 100%;
 }
 
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
 
+.section-light {
+    background-color: white;
+    color: #383636;
+}
 
+.section-dark {
+    background-color: #383636 ;
+    color: white;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-left: 30px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
 
 /* ----------------------------------------Media Queries */
