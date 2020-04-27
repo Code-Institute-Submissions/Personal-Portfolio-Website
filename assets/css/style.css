@@ -11,7 +11,7 @@ body, html {
 
 .imgMarjolein, .imgWork, .imgSkills, .imgContact {
     position: relative;
-    opacity: 0.75;
+    opacity: 0.80;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,17 +24,17 @@ body, html {
 }
 
 .imgWork {
-    background-image: url('../images/img2.jpg');
+    background-image: url('../images/coffee.jpg');
     min-height: 500px;
 }
 
 .imgSkills {
-    background-image: url('../images/img3.jpg');
+    background-image: url('../images/img9.jpg');
     min-height: 500px;
 }
 
 .imgContact {
-    background-image: url('../images/img4.jpg');
+    background-image: url('../images/img4c.jpg');
     min-height: 100%;
 }
 
@@ -65,4 +65,33 @@ body, html {
     text-transform: uppercase;
 }
 
+.btn {
+    position: absolute;
+    top: 60%;
+    width: 25%%;
+    margin-left: 30px;
+    text-align: left;
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: none;
+    text-transform: uppercase;
+    outline: none !important;
+    background: #f47a65;
+    background: -webkit-linear-gradient(to bottom left, #ff4f64, #f47a65);
+    background: linear-gradient(to bottom left, #f47a65, #ff4f64);
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    min-width: 140px;
+}
+
 /* ----------------------------------------Media Queries */
+
+@media (max-width: 568px) {
+    .imgMarjolein, .imgWork, .imgSkills, .imgContact {
+        background-attachment: scroll;
+    }
+}
