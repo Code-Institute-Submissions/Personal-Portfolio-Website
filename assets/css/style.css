@@ -159,13 +159,86 @@ body, html {
 }
 /* ----------------------------------------Footer */
 
-.sticky-footer {
-background: white;
+footer {
+    background-color: #383838;
+    color: white;
+    min-height: 100px;
 }
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #383838;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #f87984;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #f87984;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.col-sm-4 {
+    margin-top: 50px;
+}
+/* ----------------------------------------Form */
+
+.contact-heading {
+    font-family: "Acme", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin-top: 0 auto;
+    max-width: 70%;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media (max-width: 568px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact {
         background-attachment: scroll;
+    }
+}
+
+@media(min-width: 992px) {
+    .center-form, .footer {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
