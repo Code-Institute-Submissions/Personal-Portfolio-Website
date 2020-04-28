@@ -37,6 +37,24 @@ body, html {
     color: #383838;
 }
 
+.jumbotron {
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  height: 100%;
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+    margin-top: 200px;
+    letter-spacing: px;
+    font-size: 60px;
+}
+
 .imgMarjolein, .imgWork, .imgSkills, .imgContact {
     position: relative;
     opacity: 0.90;
@@ -88,26 +106,9 @@ body, html {
     margin-left: 35px;
     text-align: left;
     color: black;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 8px;
     text-transform: uppercase;
-}
-
-.btn {
-    position: absolute;
-    top: 60%;
-    width: 25%%;
-    margin-left: 30px;
-    text-align: left;
-    padding: 10px 25px;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #fff;
-    text-transform: uppercase;
-    background: #f87984;
-    border-radius: 3px;
-    min-width: 140px;
 }
 
 /* Work */
@@ -182,6 +183,28 @@ body, html {
     color: white;
 }
 
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+
 
 /* ----------------------------------------Footer */
 
@@ -233,8 +256,16 @@ footer {
 
 .center-form {
     padding-top: 10px;
-    margin-top: 0 auto;
+    margin: 0 auto;
     max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #f87984;
+
 }
 
 .contact-form {
@@ -245,16 +276,7 @@ footer {
 /* ----------------------------------------Media Queries */
 
 @media (max-width: 568px) {
-    .imgMarjolein, .imgWork, .imgSkills, .imgContact {
+    .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
-    }
-}
-
-@media(min-width: 992px) {
-    .center-form, .footer {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
     }
 }
