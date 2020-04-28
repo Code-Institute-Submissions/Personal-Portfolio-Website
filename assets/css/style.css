@@ -237,6 +237,11 @@ footer {
     max-width: 70%;
 }
 
+.contact-form {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media (max-width: 568px) {
