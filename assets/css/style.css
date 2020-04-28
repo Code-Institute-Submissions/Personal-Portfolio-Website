@@ -51,7 +51,7 @@ body, html {
 h1 {
     color: black;
     margin-top: 200px;
-    letter-spacing: px;
+    letter-spacing: 2px;
     font-size: 60px;
 }
 
@@ -119,6 +119,7 @@ h1 {
     margin-left: 80px;
     margin-top: 40px;
 }
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -267,8 +268,19 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-@media (max-width: 568px) {
+@media (max-width: 600px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
+
+    h1 {
+    color: black;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+@media (max-width: 900px) {
+
+    
 }
