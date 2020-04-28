@@ -52,17 +52,17 @@ body, html {
 }
 
 .imgWork {
-    background-image: url('../images/coffee.jpg');
+    background-image: url('../images/img2.jpg');
     min-height: 500px;
 }
 
 .imgSkills {
-    background-image: url('../images/img9.jpg');
+    background-image: url('../images/img3.jpg');
     min-height: 500px;
 }
 
 .imgContact {
-    background-image: url('../images/img4c.jpg');
+    background-image: url('../images/img4.jpg');
     min-height: 100%;
 }
 
