@@ -125,7 +125,7 @@ h1 {
     align-items: center;
     z-index: 2;
     display: inline-block;
-    opacity: 0.75;
+    opacity: 0.80;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
