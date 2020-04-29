@@ -113,7 +113,23 @@ h1 {
 
 /* Work */
 
-
+.card {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 5%;
+    margin: 20px auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: inline-block;
+    opacity: 0.75;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
 
 /* ----------------------------------------Skills */
 
