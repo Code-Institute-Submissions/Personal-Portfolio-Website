@@ -31,7 +31,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-size: 16px;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.8 em;
     color: #383838;
@@ -53,6 +53,11 @@ h1 {
     margin-top: 200px;
     letter-spacing: 2px;
     font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+   font-weight: bold; 
 }
 
 h4 {
@@ -117,24 +122,9 @@ h4 {
 
 /* Work */
 
-.card {
-    background-color: #fdfdfd;
-    border-radius: 2.5%;
-    width: 18em;
-    height: 18em;
-    top: 50%;
-    left: 5%;
-    margin: 20px auto;
-    padding: 15px;
-    align-items: center;
-    z-index: 2;
-    display: inline-block;
-    opacity: 0.80;
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
+#work {
+width: 50% 50%; 
 }
-
 
 /* ----------------------------------------Skills */
 
@@ -188,7 +178,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #f87984;
+    background: rgb(74, 133, 74);
 }
 
 #footer-details {
@@ -217,7 +207,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: white;
-    background-color: #f87984;
+    background-color: rgb(74, 133, 74);
 
 }
 
@@ -225,7 +215,6 @@ button[type="submit"] {
     margin-left: 150px;
     margin-right: 150px;
 }
-
 
 /* ----------------------------------------Modal */
 
@@ -269,7 +258,7 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
@@ -281,8 +270,4 @@ button[type="submit"] {
     letter-spacing: 2px;
     font-size: 40px;
 }
-
-@media (max-width: 900px) {
-
-    
 }
