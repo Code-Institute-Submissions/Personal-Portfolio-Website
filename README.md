@@ -13,7 +13,7 @@ Because my native language is Dutch, I made it an English/Dutch portfolio websit
 The first thing employers and recruiters see on my website is my name, my picture and a CV they can directly download.
 The navigation bar allows users to quickly visit any section within my site.
 
-![Screenshot website Marjolein van Leeuwen](screenshothomepage.jpg)
+![Screenshot website Marjolein van Leeuwen](https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=00de1d97-7bfa-4914-a03d-4e32204aac8a)
 
 **Strategy**
 
