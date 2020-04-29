@@ -55,6 +55,10 @@ h1 {
     font-size: 60px;
 }
 
+h4 {
+    color: black;
+}
+
 .imgMarjolein, .imgWork, .imgSkills, .imgContact {
     position: relative;
     opacity: 0.90;
