@@ -93,5 +93,4 @@ I got inspiration from:
 1. The example project of Haley Schafer
 2. The youtube tutorial from Traversy Media about making a basic parallax website with HTML and CSS. 
 3. The demo of Diya Thomas one page personal template 
-
-These websites websites looked clean, beautiful and professional. 
+4. W3schools.com
