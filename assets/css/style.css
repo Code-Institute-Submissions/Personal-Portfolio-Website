@@ -61,6 +61,12 @@ h4 {
     color: black;
 }
 
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: center;
+}
+
 .imgMarjolein, .imgWork, .imgSkills, .imgContact {
     position: relative;
     opacity: 0.90;
