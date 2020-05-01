@@ -6,19 +6,19 @@ Marjolein van Leeuwen portfolio website
 This personal portfolio website is a display for prospective employers. 
 It’s my way to make a good first impression.
 Show them what my skills are and what I can create. 
-Because my native language is Dutch, I made it an English/Dutch portfolio website. 
+Because I am from the Netherlands, I made it a bilingual portfolio website. 
 
 **User stories**
 
 The first thing employers and recruiters see on my website is my name, my picture and a CV they can directly download.
 The navigation bar allows users to quickly visit any section within my site.
 
-![Screenshot website Marjolein van Leeuwen](https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=00de1d97-7bfa-4914-a03d-4e32204aac8a)
+![Screenshot website Marjolein van Leeuwen](video link)
 
 **Strategy**
 
-To create a clean design that draws attention and is easy for users.
-With the parallax feature, the users take in an active role in their interaction with my site. 
+* To create a clean design that draws attention and is easy for users.
+* With the parallax feature, the users take in an active role in their interaction with my site. 
 This active role gives users the impression that they choose to engage with my site, making them more positive and more open to my message.
 
 **Scope**
@@ -44,7 +44,8 @@ The users get a glimpse of who I am, read my story, see my coding skills and kno
 
 **Surface**
 
-I chose for the opacity css property for my background images, so it gives a more designed look. I chose the font 'Sans Open', because I like how this font looks like and its nice to read.
+* I chose for the opacity css property for my background images, so it gives a more designed look. 
+* My website is in color, so it gives a warm appearance
 
 **Technologies**
 
@@ -57,7 +58,7 @@ I chose for the opacity css property for my background images, so it gives a mor
 
 * This site uses the parallax feature to create an scrolling effect. 
 * The navbar sticks on the top, and when you scroll down, it doesn't interfere with my content.
-* 
+* I used a scroll top button in the website, so you can return quickly to my navigation bar.
 
 **Testing**
 
@@ -67,9 +68,8 @@ This site is hosted using GitHub pages
 
 **Credits**
 
-* Content
-All content in the "About" and "Work" sections in this portfolio site were written by myself.
-* Media: I used two photo's from unsplashed, a free stock image libary.
+* All content in the "About" and "Work" sections in this portfolio site were written by myself.
+* Media: I used two photo's from [unsplashed.com][4] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
 - *Photo 2*: Photo made by by Nolan Issac on Unsplash
@@ -92,6 +92,7 @@ I got inspiration from:
 [1d]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=dd2aa5fd-a40d-4192-be4b-72c8774c17c2>
 [1e]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=4e5fb08e-a569-4652-8bff-1be21bbaf416>
 
+[4]: <https://unsplashed.com/>
 [5]: <https://www.haleyschafer.com/>
 [5a]: <https://www.youtube.com/watch?v=JttTcnidSdQ&t=4s>
 [6]: <W3schools.com>
