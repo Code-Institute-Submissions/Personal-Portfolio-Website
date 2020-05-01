@@ -1,4 +1,5 @@
 
+/* ----------------------------------------Navigation */
 
 
 .topnav {
@@ -74,6 +75,7 @@ h1 {
 
 h2 {
    font-weight: bold; 
+   margin-top: auto;
 }
 
 h4 {
@@ -83,6 +85,7 @@ h4 {
 p {
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 30px;
     position: center;
 }
 
@@ -130,21 +133,6 @@ p {
     color: white;
 }
 
-.ptext {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    margin-left: 35px;
-    text-align: left;
-    color: black;
-    font-size: 45px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-/* Work */
-
-
 
 /* ----------------------------------------Skills */
 
@@ -167,6 +155,33 @@ p {
     margin: 40px 20px;
 }
 
+/* ----------------------------------------Form */
+
+.contact-heading {
+    font-family: "Acme", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(74, 133, 74);
+
+}
+
+.contact-form {
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
 
 /* ----------------------------------------Footer */
@@ -174,7 +189,7 @@ p {
 footer {
     background-color: #383838;
     color: white;
-    min-height: 100px;
+    min-height: 80px;
 }
 
 .social-links {
@@ -208,33 +223,6 @@ footer {
 .col-sm-4 {
     margin-top: 50px;
 }
-/* ----------------------------------------Form */
-
-.contact-heading {
-    font-family: "Acme", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: rgb(74, 133, 74);
-
-}
-
-.contact-form {
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
 /* ----------------------------------------Modal */
 
@@ -245,19 +233,19 @@ button[type="submit"] {
   left: 0;
   top: 0;
   width: 100%; 
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto; 
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 /* The Close Button */
@@ -278,7 +266,32 @@ button[type="submit"] {
 
 /* ----------------------------------------Media Queries */
 
-@media (max-width: 900px) {
+
+@media (max-width: 600px) {
+    .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
+        background-attachment: scroll;
+    }
+
+.jumbotron {
+  background-image: url("../images/img1a.jpg");
+  background-size: cover;
+  height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    position: center;
+}
+}
+
+@media (max-width: 1200px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
@@ -286,8 +299,9 @@ button[type="submit"] {
 
     h1 {
     color: black;
-    margin-top: 150px;
+    margin-top: 10px;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 25px;
 }
 }
+
