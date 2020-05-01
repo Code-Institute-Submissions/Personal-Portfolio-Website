@@ -34,7 +34,7 @@
    <h4>Student Full-Stack Developer</h4>
    <div class="col">
    <form action="../assets/cv/cvmarjolein-nl.pdf" method="get" target="_blank">
-        <button type="submit" href="" class="btn btn-secondary">Download CV</button>
+        <button type="submit" href="https://b7f146d3-aafa-41b0-93fb-3c5a1c564333.ws-eu01.gitpod.io/files/download/?id=b90123fe-8c06-4c2f-8330-ffaa904eb7fe" class="btn btn-secondary">Download CV</button>
       </form>
     </div>
    </div>
@@ -176,21 +176,29 @@
                         <textarea rows="5" name="yourmessage" id="yourmessage" class="form-control" placeholder="Bericht" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button id="myBtn" type="submit" class="btn btn-secondary">Versturen</button>
-<div id="myModal" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Dit contact formulier stuurt geen berichten en verzameld geen persoonlijke informatie of data</p>
-  </div>
-
+                               
+<label for="mpo-modal-controller" class="btn btn-secondary">Send</label>
 </div>
-                            </div>
-                            </div>
-                    </form>
-                            </div>
-                            </div>
-        </div>
+
+<div class="mpo-modal">
+  <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
+  <div class="mpo-modal-wrap">
+    <label for="mpo-modal-controller" class="mpo-modal-overlay"></label>
+    <div class="mpo-modal-body">
+
+      <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
+
+      <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
+      <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
+      <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
+
+        <div class="mpo-modal-content">
+          <h5>Dit contact formulier verzend GEEN berichten</h5> 
+          <h5>Persoonlijke data of informatie wordt NIET verzameld</h5>
+   
+
+
+
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -228,33 +236,6 @@
     <a class="gotopbtn" href=""><i class="fa fa-arrow-up"></i></a>
 	<!--END: CONTACT and FOOTER-->
 
-    <!--Modal javascript-->
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-	</script>
+  
 </body>
 </html>
