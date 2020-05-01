@@ -39,10 +39,26 @@ body, html {
   background-size: cover;
   height: 100%;
     position: relative;
-    opacity: 0.90;
+    opacity: 0.85;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background: rgb(74, 133, 74);
+    bottom: 30px;
+    right: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.85;
 }
 
 h1 {
@@ -62,8 +78,8 @@ h4 {
 }
 
 p {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     position: center;
 }
 
