@@ -267,8 +267,9 @@ footer {
 /* ----------------------------------------Media Queries */
 
 
-@media (max-width: 600px) {
-    .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
+@media (max-width: 768px) and (min-width: 375px){
+
+.imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
 
@@ -291,7 +292,7 @@ p {
 }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
@@ -301,7 +302,6 @@ p {
     color: black;
     margin-top: 10px;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 35px;
 }
 }
-
