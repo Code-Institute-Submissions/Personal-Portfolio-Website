@@ -69,7 +69,7 @@ This site is hosted using GitHub pages
 **Credits**
 
 * All content in the "About" and "Work" sections in this portfolio site were written by myself.
-* Media: I used two photo's from ![unsplash.com](https://unsplash.com/) ( a free stock image libary).
+* Media: I used two photo's from [unsplash.com][4] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
 - *Photo 2*: Photo made by by Nolan Issac on Unsplash
