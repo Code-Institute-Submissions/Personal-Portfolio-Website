@@ -13,7 +13,7 @@ Because I am from the Netherlands, I made it a bilingual portfolio website.
 The first thing employers and recruiters see on my website is my name, my picture and a CV they can directly download.
 The navigation bar allows users to quickly visit any section within my site.
 
-![Screenshot website Marjolein van Leeuwen](video link)
+![Screenshot website Marjolein van Leeuwen](video link){:target="_blank"}
 
 **Strategy**
 
@@ -69,7 +69,7 @@ This site is hosted using GitHub pages
 **Credits**
 
 * All content in the "About" and "Work" sections in this portfolio site were written by myself.
-* Media: I used two photo's from [unsplash.com][4] ( a free stock image libary).
+* Media: I used two photo's from [unsplash.com][4]{:target="_blank"} ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
 - *Photo 2*: Photo made by by Nolan Issac on Unsplash
@@ -79,10 +79,10 @@ This site is hosted using GitHub pages
 **Acknowledgements**
 
 I got inspiration from:
-1. The example project of [Haley Schafer][5]
-2. The youtube tutorial from [Traversy Media][5a] about making a basic parallax website with HTML and CSS. 
-3. The demo of [Diya Thomas][6] one page personal template 
-4. [W3schools.com][7] - Learn how to create a Modal Box with CSS and JavaScript.
+1. The example project of [Haley Schafer][5]{:target="_blank"}
+2. The youtube tutorial from [Traversy Media][5a]{:target="_blank"} about making a basic parallax website with HTML and CSS. 
+3. The demo of [Diya Thomas][6]{:target="_blank"} one page personal template 
+4. [W3schools.com][7]{:target="_blank"} - Learn how to create a Modal Box with CSS and JavaScript.
 
 
 
