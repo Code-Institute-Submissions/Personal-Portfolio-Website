@@ -80,9 +80,10 @@ This site is hosted using GitHub pages
 
 I got inspiration from:
 1. The example project of [Haley Schafer][5]
-2. The youtube tutorial from [Traversy Media][5a] about making a basic parallax website with HTML and CSS. 
+2. The youtube tutorial from [Traversy Media][5a] about creating a basic parallax website with HTML and CSS. 
 3. The demo of [Diya Thomas][6] one page personal template 
 4. [W3schools.com][7] - Learn how to create a Modal Box with CSS and JavaScript.
+5. The youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
 
 
 
@@ -97,3 +98,4 @@ I got inspiration from:
 [5a]: <https://www.youtube.com/watch?v=JttTcnidSdQ&t=4s>
 [6]: <W3schools.com>
 [7]: <https://www.beingeorge.com/diya/>
+[8]: <https://www.youtube.com/watch?v=Vef9bxTilCU>
