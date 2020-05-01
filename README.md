@@ -86,11 +86,11 @@ I got inspiration from:
 
 
 
-[1a]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=0bb22d19-8dfd-4ecf-add2-cfb79d7b4200>
-[1b]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=91ca8364-345a-4731-af0e-11cd0f058158>
-[1c]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=0e5662a7-6b4d-4589-9d64-2797f2b82b5f>
-[1d]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=dd2aa5fd-a40d-4192-be4b-72c8774c17c2>
-[1e]: <https://d5fa6ae0-cb8f-40c5-959f-bdd90e3c73bf.ws-eu01.gitpod.io/files/download/?id=4e5fb08e-a569-4652-8bff-1be21bbaf416>
+[1a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
+[1b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
+[1c]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Work.png>
+[1d]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Skills.png>
+[1e]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Contact.png>
 
 [4]: <https://unsplash.com/>
 [5]: <https://www.haleyschafer.com/>
