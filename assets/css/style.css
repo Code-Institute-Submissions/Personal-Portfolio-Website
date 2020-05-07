@@ -3,7 +3,7 @@
 /* ----------------------------------------Navigation */
 
 .header {
-    height: 90%;
+    height: 80%;
 }
 
 .topnav {
@@ -133,6 +133,8 @@ p {
 .section-light {
     background-color: white;
     color: #383838;
+    margin-top: 300px;
+
 }
 
 .section-dark {
@@ -140,6 +142,10 @@ p {
     color: white;
 }
 
+.section section-light2 {
+    background-color: white;
+    color: #383838;
+}
 
 /* ----------------------------------------Skills */
 
@@ -384,6 +390,11 @@ p {
     margin-right: 20px;
     margin-top: 10px;
     position: center;
+}
+
+.section-light {
+    margin-top: 50px;
+
 }
 }
 
