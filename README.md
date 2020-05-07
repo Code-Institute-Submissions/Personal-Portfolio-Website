@@ -52,7 +52,6 @@ The users get a glimpse of who I am, read my story, see my coding skills and kno
 1. HTML
 2. CSS
 3. Bootstrap
-4. Javascript
 
 **Features**
 
