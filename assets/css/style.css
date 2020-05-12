@@ -96,7 +96,7 @@ p {
     margin-right: 50px;
     margin-top: 30px;
     position: center;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -239,6 +239,10 @@ footer {
     background-color: #383838;
     color: white;
     min-height: 80px;
+}
+
+footer h5 {
+    color: white;
 }
 
 .social-links {
@@ -401,7 +405,7 @@ footer {
 /* ----------------------------------------Media Queries */
 
 
-@media (max-width: 768px) and (min-width: 375px){
+@media (max-width: 768px) and (min-width: 320px){
 
 .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
@@ -418,13 +422,18 @@ footer {
     background-attachment: fixed;
 }
 
+
 p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     position: center;
 }
 
+}
+h4 {
+    font-size: 15px;
+}
 .section-light {
     margin-top: 50px;
 
