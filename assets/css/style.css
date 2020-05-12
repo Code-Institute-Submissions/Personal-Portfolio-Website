@@ -147,6 +147,24 @@ p {
     color: #383838;
 }
 
+/* ----------------------------------------Work */
+
+.column {
+  
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-spacing: 50px;
+}
+
+
+.row:after {
+  display: table;
+  clear: both;
+}
 /* ----------------------------------------Skills */
 
 .progress {
