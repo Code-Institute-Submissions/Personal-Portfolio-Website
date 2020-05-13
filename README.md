@@ -17,6 +17,7 @@ If the visiter would like to go back to the top, there is a back to top arrow on
 **Demo**
 
 [Marjoleins Portfolio Website] [DEMO]
+Add a nice screenshot of my website or video.
 
 **Strategy**
 
@@ -41,6 +42,10 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 
 
 **Skeleton** 
+
+The wireframe was made in Balsamiq. It was a good first draft and idea of what I wanted my Portfolio Website to look like.
+Along the way of making my website I discovered some things I made in my wireframe were not functional or difficult to create.
+So my website has not become exactly like the wireframe I created.
 
 * [Homepage wireframe][1a]
 * [About wireframe][1b]
