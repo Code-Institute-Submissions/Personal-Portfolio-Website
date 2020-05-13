@@ -45,10 +45,10 @@ body, html {
 .jumbotron {
   background-image: url("../images/img1.jpg");
   background-size: cover;
-  height: 150%;
+  height: 110%;
     position: relative;
     opacity: 0.85;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -81,9 +81,10 @@ h2 {
    font-weight: bold; 
    margin-top: 30px;
    text-align: auto;
+   padding-top: 250px;
 }
 
-h3, h5 {
+h5 {
     color: #383838;
 }
 
@@ -138,7 +139,7 @@ p {
 .section-light {
     background-color: white;
     color: #383838;
-    margin-top: 300px;
+    margin-top: 120px;
 
 }
 
@@ -153,7 +154,7 @@ p {
 }
 
 /* ----------------------------------------Work */
-/* Inspiration from W3school.com how to - column cards */
+/* Code used and changed - from W3school.com how to - column cards */
 
 * {
   box-sizing: border-box;
@@ -288,6 +289,8 @@ footer h5 {
 }
 
 /* modal open|close controller */
+/* Used and changed the code from Marvin Orendain Pure CSS Modal to make it work for my website */
+
 #mpo-modal-controller {
   position: absolute;
   left: -999em;
@@ -405,7 +408,7 @@ footer h5 {
 /* ----------------------------------------Media Queries */
 
 
-@media (max-width: 768px) and (min-width: 320px){
+@media (max-width: 768px) and (min-width: 300px){
 
 .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
@@ -428,18 +431,17 @@ p {
     margin-right: 10px;
     margin-top: 10px;
     position: center;
-}
 
 }
-h4 {
-    font-size: 15px;
+h1, h4 {
+    font-size: 10px;
 }
 .section-light {
     margin-top: 50px;
 
 }
 }
-/* Responsive columns */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -447,16 +449,25 @@ h4 {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
-
 
     h1 {
     color: black;
     margin-top: 10px;
     letter-spacing: 2px;
     font-size: 35px;
+}
+
+h4 {
+    font-size: 15px;
+}
+h2 {
+   font-weight: bold; 
+   margin-top: 30px;
+   text-align: auto;
+   padding-top: 1px;
 }
 }
