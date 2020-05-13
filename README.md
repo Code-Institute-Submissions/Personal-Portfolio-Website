@@ -91,8 +91,13 @@ A modal (in CSS code) will let the visiter know that this contact form does not 
 - **All links have been manually tested**
 
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
-During the testing phase I had difficulty with the padding in the light section.......
-Also 
+
+Concept text:
+* During the testing phase I had difficulty with the media query's and setting the padding right in the light section.......
+* Everytime I tested the esponsiveness on all devices, I discovered something was off, so it took me a while to understand this.
+* Also downloading the CV gave a "failed- No File" error. I with the W3 HTML validation tool dat a href and button .... ......still need to write this in good english...
+* With the W3C validator for CSS I discovered a lot of errors in my CSS code I really didnt understand. With the help of my mentor I understood the problem. 
+* 
 
 **Deployment**
 
