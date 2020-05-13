@@ -81,7 +81,7 @@ h2 {
    font-weight: bold; 
    margin-top: 30px;
    text-align: auto;
-   padding-top: 250px;
+   padding-top: 10px;
 }
 
 h5 {
@@ -449,7 +449,7 @@ h1, h4 {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .imgMarjolein, .imgWork, .imgSkills, .imgContact .jumbotron {
         background-attachment: scroll;
     }
