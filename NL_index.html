@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
       <title>Marjoleins Portfolio Website</title>
    </head>
    <body>
-      <!-- Navigation and Home -->
+
+
+
+    <!--START: NAVIGATION -->
+    <!--Inspiration from W3school.com how to - navbar on image -->
       <header class="header">
          <nav class="topnav">
-            <a href="index.html"><i class="fa fa-globe"></i>EN</a>
-            <a href="#div_about">Mijn verhaal</a>
-            <a href="#div_work">Opdrachten</a>
-            <a href="#div_skills">Skills</a>
+            <a href="NL_index.html"><i class="fa fa-globe"></i>NL</a>
+            <a href="#div_about">Mijn Verhaal</a>
+            <a href="#div_work">Werkervaring</a>
+            <a href="#div_skills">Vaardigheden</a>
             <a href="#div_contact">Contact</a>
          </nav>
+    <!--END: NAVIGATION -->  
+
+
+    <!--START: HOME -->  
+    <!--Inspiration from Haley Schafers website with jumbotron and download CV button from DIYA's template. I used Bootstraps custom button style -->
          <div class="jumbotron">
             <h1>Marjolein van Leeuwen</h1>
-            <h4>Student Full-Stack Developer</h4>
+            <h4>Full-Stack Developer</h4>
             <div class="button">
                <a href="../assets/cv/cvmarjolein-nl.pdf" download><button type="submit" class="btn btn-secondary" >Download CV</button></a>
             </div>
          </div>
       </header>
+    <!--END: HOME  -->     
+
       <!-- START: ABOUT -->
+      <!--Used code from Traversy Media about creating a basic parallax website with HTML and CSS -->
       <div id="div_about"></div>
       <section class="section section-light">
-         <h2>Mijn verhaal</h2>
+        <h2>Mijn verhaal</h2>
          <p>Ik ben geboren in Nederland met een Nederlandse vader en Filippijnse moeder. 
             Dat betekende opgroeien in twee verschillende culturen, wat geweldig was.
             Ik heb altijd veel respect gehad voor mijn ouders.
@@ -52,15 +63,22 @@
             In january 2020 ben ik gestart en tot nu toe ben ik erg blij met de keuze die ik heb gemaakt. 
          </p>
       </section>
+
+       <!--Used code from the youtube tutorial from DarkCode about creating a back to top button using only HTML & CSS -->
       <a class="gotopbtn" href=""><i class="fa fa-arrow-up"></i></a>
-      <!-- START: WORK -->
+      <!-- END: ABOUT -->
+
+
+
+      <!--START: WORK --> 
+      <!--Used code from Traversy Media about creating a basic parallax website with HTML and CSS -->
       <div class="imgWork">
          <div class="textWork"></div>
          <span class="border"></span>
       </div>
       <div id="div_work"></div>
       <section class="section section-dark">
-         <h2>Opdrachten</h2>
+           <h2>Werkervaring</h2>
          <p> Ik ben creatief en hou van problemen oplossen. 
             Sommigen noemen me een perfectionist.
             Ik ben een snelle leerling met een natuurlijke nieuwsgierigheid.
@@ -77,10 +95,14 @@
             <br>
             Hieronder zie je de twee opdrachten die ik voor mijn opleiding tot fullstack developer heb gemaakt voor Code Institute. 
          </p>
+
+
+
+        <!--Used and changed code from W3school.com - how to : column cards-->
          <div class="row">
             <div class="column">
                <div class="card">
-                  <h3>First Milestone Project</h3>
+                  <h5>First Milestone Project</h5>
                   <h5>Portfolio Website</h5>
                   <a href="https://sweetzia.github.io/Personal-Portfolio-Website/" target="_blank">
                   <i class="fa fa-github fa-5x" style="color:rgb(74, 133, 74)" aria-hidden="true"></i>
@@ -90,7 +112,7 @@
             </div>
             <div class="column">
                <div class="card">
-                  <h3>5 Day Coding Challenge</h3>
+                  <h5>5 Day Coding Challenge</h5>
                   <h5>Cupcake recipe</h5>
                   <a href="https://sweetzia.github.io/Dutch-Cupcake-Recipe/" target="_blank">
                   <i class="fa fa-github fa-5x" style="color:rgb(74, 133, 74)" aria-hidden="true"></i>
@@ -101,18 +123,23 @@
          </div>
       </section>
       <!-- END: WORK -->
+
+
       <!-- START: SKILLS -->
+      <!--Used code from Traversy Media about creating a basic parallax website with HTML and CSS -->
       <div class="imgSkills">
          <div class="textSkills"></div>
          <span class="border"></span>
       </div>
       <div id="div_skills"></div>
       <section class="section section-light2">
-         <h2>Skills</h2>
-         <p>Ik leer de basis fundamentals in programmeertalen zoals HTML, CSS, Javascript en Python.
+         <h2>Vaardigheden</h2>
+                 <p>Ik leer de basis fundamentals in programmeertalen zoals HTML, CSS, Javascript en Python.
             <br>
             Hieronder zie je de voortgang die ik boek tijdens mijn developers opleiding.
          </p>
+
+         <!--Used bootstrap progress bar code from Code Institutes 'Putting it all together - mini project' -->
          <div class="row progress-section">
             <div class="col">
                <div class="progress">
@@ -143,7 +170,9 @@
          </div>
       </section>
       <!-- END: SKILLS -->
-      <!-- START: CONTACT and FOOTER-->
+
+
+      <!-- START: CONTACT -->
       <div class="imgContact">
          <div class="textContact"></div>
          <span class="border"></span>
@@ -151,20 +180,24 @@
       <div id="div_contact"></div>
       <section class="section section-dark">
          <h2>Contact</h2>
-         <p>Wil je mij een bericht sturen? Vul mijn contact formulier in</p>
+         <p>Wil je in contact komen? Vul dan dit formulier in
+         </p>
       </section>
+
+      <!--Used code from Code Institutes 'Putting it all together Contact Details - mini project' -->
+      <!---- Used the code from Marvin Orendain Pure CSS Modal to make it work for my website -->
       <section class="container-fluid">
          <div class="row bg-color-contact">
             <div class="col">
                <h3 class="contact-heading uppercase text-center">Laten we samenwerken!</h3>
                <div class="center-form">
                   <form>
-                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Naam" required />
-                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Emailadres" required />
-                     <textarea rows="5" name="yourmessage" id="yourmessage" class="form-control" placeholder="Bericht" required></textarea>
+                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name" required />
+                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email" required />
+                     <textarea rows="5" name="yourmessage" id="yourmessage" class="form-control" placeholder="Your message" required></textarea>
                      <div class="form-row text-center">
                         <div class="col">
-                           <label for="mpo-modal-controller" class="btn btn-secondary">Send</label>
+                           <label for="mpo-modal-controller" class="btn btn-secondary">Verstuur</label>
                         </div>
                         <div class="mpo-modal">
                            <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
@@ -173,11 +206,9 @@
                               <div class="mpo-modal-body">
                                  <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
                                  <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
-                                 <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
-                                 <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
                                  <div class="mpo-modal-content">
-                                    <h5>Dit contact formulier verzend GEEN berichten</h5>
-                                    <h5>Persoonlijke data of informatie wordt NIET verzameld</h5>
+                                    <h5>Dit contact formulier verzendt niet</h5>
+                                    <h5>Persoonlijke data wordt niet verzameld</h5>
                                  </div>
                               </div>
                            </div>
@@ -188,10 +219,15 @@
             </div>
          </div>
       </section>
+        <!-- END: CONTACT -->
+
+
+        <!-- START: FOOTER -->
+        <!--Used and changed code from Code Institutes 'Putting it all together - mini project' -->
       <footer class="container-fluid">
          <div id="footer-details" class="row">
             <div class="col-sm-4">
-               <h5 class="uppercase general-sub">Student Full-Stack Web Developer. Skilled in HTML en CSS. </h5>
+               <h5 class="uppercase general-sub"> Student Full-Stack Web Developer. Skilled in HTML and CSS. </h5>
             </div>
             <div class="col-sm-4">
                <h5 class="uppercase general-sub">© 2020 Copyright: Me</h5>
@@ -222,8 +258,9 @@
          </div>
       </footer>
       <a class="gotopbtn" href=""><i class="fa fa-arrow-up"></i></a>
-      <!--END: CONTACT and FOOTER-->
+      <!--END: FOOTER-->
+
+
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    </body>
 </html>
