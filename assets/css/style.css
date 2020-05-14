@@ -95,7 +95,7 @@ p {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
 }
 
@@ -130,7 +130,7 @@ p {
 }
 
 .section {
-    text-align: left;
+    text-align: center;
     padding: 50px 50px;
 }
 
@@ -392,7 +392,7 @@ footer h5 {
 }
 
 .section {
-    text-align: left;
+    text-align: center;
     padding: 30px 30px;
 }
 
@@ -408,7 +408,6 @@ h1, h4 {
 .section-light {
     margin-top: 50px;
 
-}
 }
 
 @media screen and (max-width: 600px) {
@@ -432,10 +431,5 @@ h1, h4 {
 
 h4 {
     font-size: 15px;
-}
-h2 {
-   font-weight: bold; 
-    margin-top: 30px;
-    padding-top: 1px;
 }
 }
