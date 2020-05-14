@@ -38,7 +38,7 @@ body, html {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    line-height: 1.8 em;
+    line-height: 1.8em;
     color: #383838;
 }
 
@@ -294,13 +294,11 @@ footer h5 {
   left: -999em;
   opacity: 0;
 }
+
 .mpo-modal-open:checked ~ .mpo-modal-wrap {
   display: block;
-  
-  &:before, .mpo-modal-overlay {
-    display: block;
-  }
 }
+
 .mpo-modal-close {
   cursor: pointer;
   font-size: 35px;
@@ -316,18 +314,6 @@ footer h5 {
 /* modal */
 .mpo-modal-wrap {
   display: none;
-  
-  &:before {
-    content: "";
-    display: none;
-    background: rgba(0, 0, 0, .8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 101;
-  }
 }
 
 .mpo-modal-overlay {
@@ -373,17 +359,6 @@ footer h5 {
   position: absolute;
   top: 50px;
   width: 100%;
-    
- }
-
-    &.prev-slide {
-      content: '';
-      left: 0;
-    }
-    &.next-slide {
-      content: '';
-      right: 0;
-    }
 }
 
 
