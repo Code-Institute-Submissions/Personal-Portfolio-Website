@@ -46,7 +46,7 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 **Skeleton** 
 
 The wireframe was made in Balsamiq. I was able to create a first draft of what I wanted my Portfolio Website to look like.
-Along the way of making my website I discovered that some features I made in my wireframe were not functional or difficult to create.
+Along the way of building my website I discovered that some features I made in my wireframe were not functional or difficult to create.
 
 So my website has not become exactly like the wireframe I created.
 The features that has changed are explained here:
