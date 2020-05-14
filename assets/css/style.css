@@ -130,8 +130,8 @@ p {
 }
 
 .section {
-    text-align: center;
-    padding: 50px 80px;
+    text-align: left;
+    padding: 50px 50px;
 }
 
 .section-light {
@@ -391,6 +391,10 @@ footer h5 {
     background-attachment: fixed;
 }
 
+.section {
+    text-align: left;
+    padding: 30px 30px;
+}
 
 p {
     margin-left: 10px;
