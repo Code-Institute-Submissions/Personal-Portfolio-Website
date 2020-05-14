@@ -53,10 +53,10 @@ The features that has changed are explained here:
 
 * [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
 That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
-* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore. No navbar.
-* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page. No navbar.
-* [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted. No navbar.
-* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section. No navbar.
+* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore. 
+* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page. 
+* [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted. 
+* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section.
 
 **Surface**
 
@@ -80,7 +80,7 @@ That's why I created a bottom-to-top arrow, so it is possible to directly go bac
 
 **Features Left to Implement**
 
-* In the future I would like to add moving texts and animations with CSS. I tried doing this, but I failed, because I had difficulty implementing and understanding this code. 
+* In the future I would like to add moving texts and animations with CSS. I tried doing this for my name, but I failed, because I had difficulty implementing and understanding this code. 
 * In the About section I would like to add a promotional video of myself.
 * In the Work section I would like to make flipcards, so the website looks less static and more playful.
 
@@ -88,23 +88,22 @@ That's why I created a bottom-to-top arrow, so it is possible to directly go bac
 
 - The Navigation bar takes you to the different sections in my website. 
 - The arrow top button takes you back to the homepage and navigation bar. 
-- When the visiter switches languages, they see a dutch written portfolio website. 
-- At the work section the visitor is able to click on two projects I made for Code Institute. 
-The links take you to my github pages.
-- In the contact section visitors are able to fill out the contact form and click on send. 
+- When the visiter switches languages, they see a dutch written portfolio website when they click on NL. 
+- At the Work section the visitor is able to click on two projects I made for Code Institute. 
+The links take you to my GitHub pages.
+- In the Contact section visitors are able to fill out the contact form and click on send. 
 A modal (in CSS code) will let visitors know that this contact form does not send a message and will not gather personal data.
-- In the footer the links take you to my social platforms.
+- In the footer the Github, LinkedIn and Intsagram icons take you to my social platforms.
 - **All links have been manually tested**
 
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
 
 Testing problems I encountered:
-* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size or padding, so it took me a while to understand this. 
-During the testing phase I adjusted the font sizes on the Home page and made them responsive.
+* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size
+I adjusted the font sizes on the Home page and made them responsive.
 * I discovered that I had difficulty setting the right media query for the iphone 5, .......
 * Downloading my CV gave a "failed- No File" error. I discovered I had to adjust the href link, to make it possible to download my CV.
-* With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". 
-If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore.
+* With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore. 
 * With the W3C validator for CSS I discovered 33 bootsrap errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
 
 **Deployment**
@@ -123,7 +122,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 **Credits**
 
-* All content in the "About" and "Work" sections in this portfolio site were written by myself.
+* All content in the "About","Work", "Skills" and "Contact" sections in this portfolio site were written by myself.
 * Media: I used two photo's from [unsplash.com][4] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
@@ -143,7 +142,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 * [Marvin Orendain][6] Pure CSS Modal code
 * Code from the youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
 * Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute
-* Code from [W3schools.com][3] for making column cards in my Work section and put a Navigation Bar on my Homepage image.
+* Code from [W3schools.com][3] for making Column Cards and how to put a Navigation Bar on my Homepage image.
 
 *I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
 
