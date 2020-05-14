@@ -5,7 +5,7 @@ Marjolein van Leeuwens Portfolio Website
 
 This personal portfolio website is meant as a display for prospective employers. 
 It’s my way to make a good first impression.
-I would like visitors to get to know me personally and show them what my skills are capabalities are. 
+I would like visitors to get to know me personally and show them what my skills and capabalities are. 
 Since I am from the Netherlands, I made it a bilingual portfolio website. 
 
 **User stories**
@@ -51,9 +51,9 @@ Along the way of making my website I discovered that some features I made in my 
 So my website has not become exactly like the wireframe I created.
 These features have changed:
 
-* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. It does not look nice, so I let it stick on top. That's why I created a bottom-to-top arrow.
+* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. It does not look nice, so I let it stick on top. That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
 * [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section
-* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my project on the github page
+* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page
 * [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted
 * [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the work and skills section
 
@@ -86,7 +86,7 @@ These features have changed:
 **Testing**
 
 - The Navigation bar takes you to the different sections in my website. 
-- The arrow top button takes you back to the homepage. 
+- The arrow top button takes you back to the homepage and navigation bar. 
 - When the visiter switches languages, they see a dutch written portfolio website. 
 - At the work section the visitor is able to click on two projects I made for Code Institute. 
 The links take you to my github pages.
@@ -98,12 +98,11 @@ A modal (in CSS code) will let visitors know that this contact form does not sen
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
 
 Concept text:
-* During the testing phase I had difficulty with the media query's and setting the padding right in the light section.......
 * Everytime I tested the responsiveness on all devices, I discovered something was off, so it took me a while to understand this. 
+* During the testing phase I had difficulty with the media query's and setting the padding right in the light section.......
 * Also downloading the CV gave a "failed- No File" error. 
-* With the W3 HTML validation tool dat a href and button .... ......still need to write this in good english...
-* With the W3C validator for CSS I discovered a lot of errors in my CSS code I really didnt understand. With the help of my mentor I understood the problem. 
-* 
+* With the W3C HTML validation tool I checked my code on errors. My errors in the HTML code were dat a href and button .... ......still need to write this in good english...
+* With the W3C validator for CSS I discovered a lot of errors in my CSS code I didnt understand. With the help of my mentor I understood the problem and discovered that....
 
 **Deployment**
 
