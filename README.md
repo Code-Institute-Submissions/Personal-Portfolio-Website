@@ -102,7 +102,8 @@ Testing problems I encountered:
 * Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size
 I adjusted the font sizes on the Home page and made them responsive.
 * I discovered that I had difficulty setting the right media query for the iphone 5, .......
-* Downloading my CV gave a "failed- No File" error. I discovered I had to adjust the href link, to make it possible to download my CV.
+* Downloading my CV gave a "failed- No File" error. I discovered ....
+* Using justify for my paragraph text looked good on big screens, but not so on smaller screens. So I went back changing it to center the position of the text.
 * With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore. 
 * With the W3C validator for CSS I discovered 33 bootsrap errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
 
