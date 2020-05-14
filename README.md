@@ -100,17 +100,18 @@ This site was tested on the Chrome browser and on multiple mobile devices (iPhon
 
 Testing problems I encountered:
 * Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size or padding, so it took me a while to understand this. 
-During the testing phase I adjusted the padding in the light section and adjusted the font sizes on the Home page and make them responsive.
-* Downloading my CV gave a "failed- No File" error. I discovered I used <a href="/assets/cv/cvmarjolein.pdf" download> instead of <a href="../assets/cv/cvmarjolein.pdf" download>. After adjusting the href, it was possible to download my CV.
+During the testing phase I adjusted the font sizes on the Home page and made them responsive.
+* I discovered that I had difficulty setting the right media query for the iphone 5, .......
+* Downloading my CV gave a "failed- No File" error. I discovered I had to adjust the href link, to make it possible to download my CV.
 * With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". 
 If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore.
-* With the W3C validator for CSS I discovered 40 errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
+* With the W3C validator for CSS I discovered 33 bootsrap errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
 
 **Deployment**
 
-This project was developed using the Github pages.
+This project was developed using GitHub.
 
-I followed the next steps to deploy my page on the Github pages:
+I followed the next steps to deploy my page on the GitHub pages:
 
 * Log into GitHub.
 * Select Sweetzia/Personal-Portfolio-Website in the repository list.
@@ -137,13 +138,14 @@ I followed the next steps to deploy my page on the Github pages:
 * The demo of [Diya Thomas][7] one page personal template
 * the example project of [Anna Gilhespy][9]
 
-*I used these codes and edited it for my own portfolio website:*
+*I used HTML and CSS codes from these sources and edited it for my Portfolio Website:*
 * Code from the youtube tutorial from [Traversy Media][5a] about creating a basic parallax website with HTML and CSS. 
 * [Marvin Orendain][6] Pure CSS Modal code
 * Code from the youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
 * Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute
+* Code from [W3schools.com][3] for making column cards in my Work section and put a Navigation Bar on my Homepage image.
 
-*I want to thank my mentor Brian Macharia for guiding me through the process of making my own Portfolio Website.*
+*I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
 
 
 
@@ -156,6 +158,7 @@ I followed the next steps to deploy my page on the Github pages:
 [1d]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Skills.png>
 [1e]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Contact.png>
 
+[3]: <https://w3schools.com>
 [4]: <https://unsplash.com/>
 [5]: <https://www.haleyschafer.com/>
 [5a]: <https://www.youtube.com/watch?v=JttTcnidSdQ&t=4s>
