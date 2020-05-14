@@ -51,12 +51,12 @@ Along the way of building my website I discovered that some features I made in m
 So my website has not become exactly like the wireframe I created.
 The features that has changed are explained here:
 
-* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. It does not look nice, so I let it stick on top. 
+* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
 That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
-* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore.
-* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page
-* [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted
-* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section
+* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore. No navbar.
+* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page. No navbar.
+* [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted. No navbar.
+* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section. No navbar.
 
 **Surface**
 
