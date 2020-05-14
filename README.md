@@ -17,7 +17,7 @@ Since I am from the Netherlands, I made it a bilingual portfolio website.
 
 **Demo**
 
-For a demo of my portfolio website click [HERE][1]
+For a demo of my portfolio website click [HERE][DEMO]
 
 **Strategy**
 
@@ -51,12 +51,12 @@ Along the way of building my website I discovered that some features I made in m
 So my website has not become exactly like the wireframe I created.
 The features that has changed are explained here:
 
-* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
+* [Homepage wireframe][a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
 That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
-* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore. 
-* [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page. 
-* [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted. 
-* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section.
+* [About wireframe][b] The image of myself is seen on the Homepage and not in the About section anymore. 
+* [Work wireframe][c] I added a Github Icon to click on, which directs you to my projects on my github page. 
+* [Skills wireframe][d] I made use of the bootstrap progress bar instead of the round circles I originally wanted. 
+* [Contact wireframe][e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section.
 
 **Surface**
 
@@ -123,7 +123,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 **Credits**
 
 * All content in the "About","Work", "Skills" and "Contact" sections in this portfolio site were written by myself.
-* Media: I used two photo's from [unsplash.com][4] ( a free stock image libary).
+* Media: I used two photo's from [unsplash.com][1] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
 - *Photo 2*: Photo made by by Nolan Issac on Unsplash
@@ -133,35 +133,37 @@ I followed the next steps to deploy my page on the GitHub pages:
 **Acknowledgements**
 
 *I got inspiration from:*
-* The example project of [Haley Schafer][5]
-* The demo of [Diya Thomas][7] one page personal template
-* the example project of [Anna Gilhespy][9]
+* The example project of [Haley Schafer][2]
+* The demo of [Diya Thomas][3] one page personal template
+* the example project of [Anna Gilhespy][4]
 
 *I used HTML and CSS codes from these sources and edited it for my Portfolio Website:*
-* Code from the youtube tutorial from [Traversy Media][5a] about creating a basic parallax website with HTML and CSS. 
+* Code from the youtube tutorial from [Traversy Media][5] about creating a basic parallax website with HTML and CSS. 
 * [Marvin Orendain][6] Pure CSS Modal code
-* Code from the youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
-* Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute
-* Code from [W3schools.com][3] for making Column Cards and how to put a Navigation Bar on my Homepage image.
+* Code from the youtube tutorial from [DarkCode][7] about creating a back to top button using only HTML & CSS
+* Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute. Making the progress bar and footer with social links.
+* Code from [W3schools.com][8] for making Column Cards and how to put a Navigation Bar on my Homepage image.
 
 *I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
 
 
 
-[1]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
+[DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
 [CV]: <https://e9b8f684-5d41-46fc-b300-affb381be327.ws-eu01.gitpod.io/files/download/?id=7e3df4bc-2183-43c8-9364-911ec6e93c45>
 
-[1a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
-[1b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
-[1c]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Work.png>
-[1d]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Skills.png>
-[1e]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Contact.png>
+[a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
+[b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
+[c]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Work.png>
+[d]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Skills.png>
+[e]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Contact.png>
 
-[3]: <https://w3schools.com>
-[4]: <https://unsplash.com/>
-[5]: <https://www.haleyschafer.com/>
-[5a]: <https://www.youtube.com/watch?v=JttTcnidSdQ&t=4s>
+
+[1]: <https://unsplash.com/>
+[2]: <https://www.haleyschafer.com/>
+[3]: <https://www.beingeorge.com/diya/>
+[4]: <https://ajgreaves.github.io/portrait-artist/>
+[5]: <https://www.youtube.com/watch?v=JttTcnidSdQ&t=4s>
 [6]: <https://codepen.io/marv117/pen/WvZdGV/>
-[7]: <https://www.beingeorge.com/diya/>
-[8]: <https://www.youtube.com/watch?v=Vef9bxTilCU>
-[9]: <https://ajgreaves.github.io/portrait-artist/>
+[7]: <https://www.youtube.com/watch?v=Vef9bxTilCU>
+[8]: <https://w3schools.com>
+
