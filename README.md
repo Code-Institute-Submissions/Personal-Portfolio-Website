@@ -10,14 +10,14 @@ Since I am from the Netherlands, I made it a bilingual portfolio website.
 
 **User stories**
 
-* The first thing employers and recruiters will see on my website is my name, my picture and a CV they can directly download.
+* The first thing employers and recruiters will see on my website is my name, my picture and a [CV][CV] they can directly download.
 * The navigation bar allows users to quickly visit any section within my site.
 * If the visiter wants to go back to the top, there is a back-to-top arrow on the bottom right.
 * The visiter can view my two projects in the Work section which shows my capabilities in coding
 
 **Demo**
 
-For a demo of my portfolio website click [HERE]
+For a demo of my portfolio website click [HERE][1]
 
 **Strategy**
 
@@ -35,7 +35,7 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 
 * The Home page features a responsive navigation bar. 
 * The Navigation bar consists of an EN/NL, About, Work, Skills and Contact section.
-* In the Home section, its possible to directly download a PDF of my [CV]
+* In the Home section, its possible to directly download a PDF of my CV.
 * You can see my picture on the background and a download button for my CV.
 * In the About section you read my personal story .
 * In the Work section you find my two projects I worked on during my fullstack development course for Code Institute
@@ -49,18 +49,19 @@ The wireframe was made in Balsamiq. I was able to create a first draft of what I
 Along the way of making my website I discovered that some features I made in my wireframe were not functional or difficult to create.
 
 So my website has not become exactly like the wireframe I created.
-These features have changed:
+The features that has changed are explained here:
 
-* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. It does not look nice, so I let it stick on top. That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
-* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section
+* [Homepage wireframe][1a] The navigation bar is only found on the homepage and does not scroll down because of the parallax feature. It does not look nice, so I let it stick on top. 
+That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
+* [About wireframe][1b] The image of myself is seen on the Homepage and not in the About section anymore.
 * [Work wireframe][1c] I added a Github Icon to click on, which directs you to my projects on my github page
 * [Skills wireframe][1d] I made use of the bootstrap progress bar instead of the round circles I originally wanted
-* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the work and skills section
+* [Contact wireframe][1e] In the Contact section I originally wanted to add a picture of myself, but instead I put the image of myself in between the Work and Skills section
 
 **Surface**
 
 * I chose for the opacity css property for my background images, because of the more sophisticated look. 
-* My website is in the colors: #
+* My website made use of the colors: ##383838, white, black and rgb(74, 133, 74).
 
 **Technologies**
 
@@ -97,12 +98,13 @@ A modal (in CSS code) will let visitors know that this contact form does not sen
 
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
 
-Concept text:
-* Everytime I tested the responsiveness on all devices, I discovered something was off, so it took me a while to understand this. 
-* During the testing phase I had difficulty with the media query's and setting the padding right in the light section.......
-* Also downloading the CV gave a "failed- No File" error. 
-* With the W3C HTML validation tool I checked my code on errors. My errors in the HTML code were dat a href and button .... ......still need to write this in good english...
-* With the W3C validator for CSS I discovered a lot of errors in my CSS code I didnt understand. With the help of my mentor I understood the problem and discovered that....
+Testing problems I encountered:
+* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size or padding, so it took me a while to understand this. 
+During the testing phase I adjusted the padding in the light section and adjusted the font sizes on the Home page and make them responsive.
+* Downloading my CV gave a "failed- No File" error. I discovered I used <a href="/assets/cv/cvmarjolein.pdf" download> instead of <a href="../assets/cv/cvmarjolein.pdf" download>. After adjusting the href, it was possible to download my CV.
+* With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". 
+If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore.
+* With the W3C validator for CSS I discovered 40 errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
 
 **Deployment**
 
@@ -133,16 +135,20 @@ I followed the next steps to deploy my page on the Github pages:
 *I got inspiration from:*
 * The example project of [Haley Schafer][5]
 * The demo of [Diya Thomas][7] one page personal template
-* the example project of [Anna Gilhespy] [9]
+* the example project of [Anna Gilhespy][9]
 
 *I used these codes and edited it for my own portfolio website:*
-* The youtube tutorial from [Traversy Media][5a] about creating a basic parallax website with HTML and CSS. 
-* [Marvin Orendain][6] Pure CSS Modal
-* The youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
-* Putting it all together/ Mini project from the User Centric Frontend Development Module of Code Institute
+* Code from the youtube tutorial from [Traversy Media][5a] about creating a basic parallax website with HTML and CSS. 
+* [Marvin Orendain][6] Pure CSS Modal code
+* Code from the youtube tutorial from [DarkCode][8] about creating a back to top button using only HTML & CSS
+* Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute
 
-[DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
-[CV]: <
+*I want to thank my mentor Brian Macharia for guiding me through the process of making my own Portfolio Website.*
+
+
+
+[1]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
+[CV]: <https://e9b8f684-5d41-46fc-b300-affb381be327.ws-eu01.gitpod.io/files/download/?id=7e3df4bc-2183-43c8-9364-911ec6e93c45>
 
 [1a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
 [1b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
