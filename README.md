@@ -106,7 +106,7 @@ I adjusted the font sizes H1 and H4 to 12px in the media query @media (max-width
 * Downloading my CV gave a "failed- No File" error. I discovered that I had my href code wrongly typed. href="../assets/cv/cvmarjolein.pdf" instead of href="assets/cv/cvmarjolein.pdf".
 * Using justify for my main text did not look good on smaller screens. So I changed it to left-align which looked visually better.
 * With the W3C HTML validation tool I checked my HTML code and had a few errors like: "the element button must not appear as a descendant of the a element". So I removed the button that I orginally had for downloading my CV.
-And I forgot to change the language in my NL-index.html to lang="nl"
+Also not setting the right language in my NL-index.html file gave an error, so I changed it to lang="nl"
 * With the W3C validator for CSS I discovered no errors.
 
 **Deployment**
