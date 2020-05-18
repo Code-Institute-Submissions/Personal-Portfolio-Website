@@ -18,6 +18,7 @@ Since I am from the Netherlands, I made it a bilingual portfolio website.
 **Demo**
 
 For a demo of my portfolio website click [HERE][DEMO]
+![Marjoleins Portfolio Website](https://imgur.com/a/qopZZ4c)
 
 **Strategy**
 
