@@ -53,7 +53,7 @@ Along the way of building my website I discovered that some features I made in m
 So my website has not become exactly like the wireframe I created.
 The features that has changed are explained here:
 
-* [Homepage wireframe][a] At first I did not want the navigation bar to see on my homepage, but I changed my mind. Now the nacigation bar is only seen on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
+* [Homepage wireframe][a] At first I did not want the navigation bar to see on my homepage, but I changed my mind. Now the navigation bar is only seen on the homepage and does not scroll down because of the parallax feature. I let the navbar stick on top. 
 That's why I created a bottom-to-top arrow, so it is possible to directly go back to the navigation bar.
 * [About wireframe][b] The image of myself is seen on the Homepage and not in the About section anymore. 
 * [Work wireframe][c] I added a Github Icon to click on, which directs you to my projects on my github page. 
