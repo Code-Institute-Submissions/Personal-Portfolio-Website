@@ -48,7 +48,7 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 
 **Skeleton** 
 
-The wireframe was made in Balsamiq. I was able to create a first draft of what I wanted my Portfolio Website to look like.
+The wireframe was made in [Balsamiq][Balsamiq]. I was able to create a first draft of what I wanted my Portfolio Website to look like.
 Along the way of building my website I discovered that some features I made in my wireframe were not functional or difficult to create.
 
 So my website has not become exactly like the wireframe I created.
@@ -158,6 +158,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 [DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
 [EN]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/7f2d15e5145f431b878ef22e3ec3539b07ccfb1d/assets/cv/cvmarjolein.pdf>
 [NL]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/master/assets/cv/cvmarjolein-nl.pdf>
+[Balsamiq]: <https://balsamiq.cloud/>
 
 [a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
 [b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
