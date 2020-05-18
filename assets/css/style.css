@@ -225,50 +225,6 @@ button[type="submit"] {
     margin-bottom: 10px;
 }
 
-/* ----------------------------------------Footer */
-
-footer {
-    background-color: #383838;
-    color: white;
-    min-height: 80px;
-}
-
-footer h5 {
-    color: white;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: white;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: rgb(74, 133, 74);
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-.col-sm-4 {
-    margin-top: 50px;
-}
-
 /* ----------------------------------------Modal */
 
 .btn {
@@ -280,7 +236,7 @@ footer h5 {
 }
 
 /* modal open|close controller */
-/* Used and changed the code from Marvin Orendain Pure CSS Modal to make it work for my website */
+/* Used the modal code from Marvin Orendain Pure CSS Modal and made it work for my website */
 
 #mpo-modal-controller {
   position: absolute;
@@ -370,6 +326,53 @@ footer h5 {
   cursor: pointer;
 }
 
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #383838;
+    color: white;
+    min-height: 80px;
+}
+
+footer h5 {
+    color: white;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.list-inline {
+    padding-left: 30px;
+}
+
+.social-links li a i:hover {
+    background: rgb(74, 133, 74);
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.col-sm-4 {
+    margin-top: 50px;
+}
 
 /* ----------------------------------------Media Queries */
 
@@ -403,7 +406,7 @@ p {
 
 }
 h1, h4 {
-    font-size: 10px;
+    font-size: 12px;
 }
 .section-light {
     margin-top: 50px;
