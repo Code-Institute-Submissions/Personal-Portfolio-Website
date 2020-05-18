@@ -131,9 +131,9 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Media: I used two photo's from [unsplash.com][1] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
-- *Photo 2*: Photo made by by Nolan Issac on Unsplash.com
+- *Photo 2*: Photo made by by Nolan Issac on unsplash.com
 - *Photo 3*: Photo of Marjolein made by Darinde Heerema
-- *Photo 4*: Photo by Nathan Riley on Unsplash.com
+- *Photo 4*: Photo by Nathan Riley on unsplash.com
 
 **Acknowledgements**
 
