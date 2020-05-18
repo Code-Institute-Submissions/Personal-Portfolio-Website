@@ -101,12 +101,12 @@ A modal (in CSS code) will let visitors know that this contact form does not sen
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
 
 Testing problems I encountered:
-* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size on small devices, especially on the iPhone5.
-I adjusted the font sizes H1 and H4 on the Home page and made them responsive.
-* Downloading my CV gave a "failed- No File" error. I discovered that I had my href source wrongly typed. href="../assets/cv/cvmarjolein.pdf" instead of href="assets/cv/cvmarjolein.pdf".
-* Using justify for my main text did not look good on smaller screens. So I changed it to left-align which looked better.
-* With the W3C HTML validation tool I checked my HTML code and had a few errors like: "the element button must not appear as a descendant of the a element". So I removed the button for downloading my CV.
-And I did not put the language in my NL-index.html to lang="nl"
+* Everytime I tested the responsiveness on the different devices, I discovered something was off in the font-size on small devices, especially on the iPhone5.
+I adjusted the font sizes H1 and H4 to 12px in the media query @media (max-width: 760px) and (min-width: 300px) and made them responsive.
+* Downloading my CV gave a "failed- No File" error. I discovered that I had my href code wrongly typed. href="../assets/cv/cvmarjolein.pdf" instead of href="assets/cv/cvmarjolein.pdf".
+* Using justify for my main text did not look good on smaller screens. So I changed it to left-align which looked visually better.
+* With the W3C HTML validation tool I checked my HTML code and had a few errors like: "the element button must not appear as a descendant of the a element". So I removed the button that I orginally had for downloading my CV.
+And I forgot to change the language in my NL-index.html to lang="nl"
 * With the W3C validator for CSS I discovered no errors.
 
 **Deployment**
