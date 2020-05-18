@@ -151,7 +151,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 
 
-*I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
+***I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.***
 
 
 
