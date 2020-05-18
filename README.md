@@ -17,8 +17,9 @@ Since I am from the Netherlands, I made it a bilingual portfolio website.
 
 **Demo**
 
-For a demo of my portfolio website click [HERE][DEMO]
-[https://imgur.com/a/qopZZ4c][Desktop Website]
+For a demo of my Portfolio Website click [HERE][DEMO]
+
+![Desktop Website](https://ce5c0417-5fdf-45d0-b44e-13840f2b8e52.ws-eu01.gitpod.io/files/download/?id=aba06588-3af2-4b5d-873e-e20b23cdd93a)
 
 **Strategy**
 
@@ -151,8 +152,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 
 [DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
-[CV]: <https://e9b8f684-5d41-46fc-b300-affb381be327.ws-eu01.gitpod.io/files/download/?id=7e3df4bc-2183-43c8-9364-911ec6e93c45>
-[Desktop Website]: <https://imgur.com/a/qopZZ4c>
+[CV]: <https://ce5c0417-5fdf-45d0-b44e-13840f2b8e52.ws-eu01.gitpod.io/files/download/?id=9289f9fa-a686-4990-afac-2b146146de6d>
 
 [a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
 [b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
