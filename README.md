@@ -1,19 +1,20 @@
 
-Marjolein van Leeuwens Portfolio Website
+Portfolio Website Marjolein van Leeuwen
 ---------------------------------------
 **First Milestone Project: User Centric Frontend Development - Code Institute**
 
 This personal portfolio website is meant as a display for prospective employers. 
 It’s my way to make a good first impression.
-I would like visitors to get to know me personally and show them what my skills and capabalities are. 
-Since I am from the Netherlands, I made it a bilingual portfolio website. 
+I would like visitors to get to know me personally and show them what my skills and capabilities are. 
+Because of my Dutch nationality, I created the portfolio website bilingual. 
 
 **User stories**
 
-* The first thing employers and recruiters will see on my website is my name, my picture and a [CV][CV] they can directly download.
+* The first thing employers and recruiters will see on my website is my name, my picture and a CV they can directly download.
+The CV can be downloaded in [English][EN] and [Dutch][NL].
 * The navigation bar allows users to quickly visit any section within my site.
-* If the visiter wants to go back to the top, there is a back-to-top arrow on the bottom right.
-* The visiter can view my two projects in the Work section which shows my capabilities in coding
+* If the visitor wants to go back to the top, there is a back-to-top arrow on the bottom right.
+* The visitor can view my two projects in the Work section which shows my capabilities in coding
 
 **Demo**
 
@@ -42,7 +43,7 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 * In the About section you read my personal story .
 * In the Work section you find my two projects I worked on during my fullstack development course for Code Institute
 * In the Skills section, you see the progress of my coding languages.
-* In the Contact section: The visiter can contact me through a contact form.
+* In the Contact section: The visitor can contact me through a contact form.
 
 
 **Skeleton** 
@@ -95,7 +96,7 @@ That's why I created a bottom-to-top arrow, so it is possible to directly go bac
 The links take you to my GitHub pages.
 - In the Contact section visitors are able to fill out the contact form and click on send. 
 A modal (in CSS code) will let visitors know that this contact form does not send a message and will not gather personal data.
-- In the footer the Github, LinkedIn and Intsagram icons take you to my social platforms.
+- In the footer the Github, LinkedIn and Instagram icons take you to my social platforms.
 - **All links have been manually tested**
 
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
@@ -104,10 +105,11 @@ Testing problems I encountered:
 * Everytime I tested the responsiveness on the different devices, I discovered something was off in the font-size on small devices, especially on the iPhone5.
 I adjusted the font sizes H1 and H4 to 12px in the media query @media (max-width: 760px) and (min-width: 300px) and made them responsive.
 * Downloading my CV gave a "failed- No File" error. I discovered that I had my href code wrongly typed. href="../assets/cv/cvmarjolein.pdf" instead of href="assets/cv/cvmarjolein.pdf".
-* Using justify for my main text did not look good on smaller screens. So I changed it to left-align which looked visually better.
+* Using the text-align to justify for my main text did not look good on smaller screens. 
+So I changed it to left-align which looked visually better.
 * With the W3C HTML validation tool I checked my HTML code and had a few errors like: "the element button must not appear as a descendant of the a element". So I removed the button that I orginally had for downloading my CV.
 Also not setting the right language in my NL-index.html file gave an error, so I changed it to lang="nl"
-* With the W3C validator for CSS I discovered no errors.
+* With the W3C validator for CSS I encountered no errors.
 
 **Deployment**
 
@@ -129,9 +131,9 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Media: I used two photo's from [unsplash.com][1] ( a free stock image libary).
 
 - *Photo 1*: Photo of Marjolein made by Darinde Heerema
-- *Photo 2*: Photo made by by Nolan Issac on Unsplash
+- *Photo 2*: Photo made by by Nolan Issac on Unsplash.com
 - *Photo 3*: Photo of Marjolein made by Darinde Heerema
-- *Photo 4*: Photo by Nathan Riley on Unsplash
+- *Photo 4*: Photo by Nathan Riley on Unsplash.com
 
 **Acknowledgements**
 
@@ -144,15 +146,16 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Code from the youtube tutorial from [Traversy Media][5] about creating a basic parallax website with HTML and CSS. 
 * [Marvin Orendain][6] Pure CSS Modal code
 * Code from the youtube tutorial from [DarkCode][7] about creating a back to top button using only HTML & CSS
-* Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute. Making the progress bar and footer with social links.
-* Code from [W3schools.com][8] for making Column Cards and how to put a Navigation Bar on my Homepage image.
+* Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute. Thanks to this mini project I was able to create a progress bar and footer with social links.
+* Code from [W3schools.com][8] for making column cards and how to put a navigation bar on my homepage image.
 
 *I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
 
 
 
 [DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
-[CV]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/7f2d15e5145f431b878ef22e3ec3539b07ccfb1d/assets/cv/cvmarjolein.pdf>
+[EN]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/7f2d15e5145f431b878ef22e3ec3539b07ccfb1d/assets/cv/cvmarjolein.pdf>
+[NL]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/master/assets/cv/cvmarjolein-nl.pdf>
 
 [a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
 [b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
