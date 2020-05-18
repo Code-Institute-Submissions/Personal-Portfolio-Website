@@ -83,7 +83,7 @@ That's why I created a bottom-to-top arrow, so it is possible to directly go bac
 
 **Features Left to Implement**
 
-* In the future I would like to add moving texts and animations with CSS. I tried doing this for my name, but I failed, because I had difficulty implementing and understanding this code. 
+* In the future I would like to add moving texts and animations with CSS. I tried doing this for my name on the homepage, but I failed, because I had difficulty implementing and understanding this code. 
 * In the About section I would like to add a promotional video of myself.
 * In the Work section I would like to make flipcards, so the website looks less static and more playful.
 
