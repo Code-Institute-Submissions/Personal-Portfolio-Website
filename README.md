@@ -14,7 +14,7 @@ Because of my Dutch nationality, I created the portfolio website bilingual.
 The CV can be downloaded in [English][EN] and [Dutch][NL].
 * The navigation bar allows users to quickly visit any section within my site.
 * If the visitor wants to go back to the top, there is a back-to-top arrow on the bottom right.
-* The visitor can view my two projects in the Work section which shows my capabilities in coding
+* The visitor can view my two projects in the Work section which shows my capabilities in coding.
 
 **Demo**
 
@@ -40,15 +40,15 @@ The users get a glimpse of who I am, read my story, see my coding skills and can
 * The Navigation bar consists of an EN/NL, About, Work, Skills and Contact section.
 * In the Home section, its possible to directly download a PDF of my CV.
 * You can see my picture on the background and a download button for my CV.
-* In the About section you read my personal story .
-* In the Work section you find my two projects I worked on during my fullstack development course for Code Institute
+* In the About section you read my personal story.
+* In the Work section you find my two projects I worked on during my fullstack development course for Code Institute.
 * In the Skills section, you see the progress of my coding languages.
 * In the Contact section: The visitor can contact me through a contact form.
 
 
 **Skeleton** 
 
-The wireframe was made in [Balsamiq][Balsamiq]. I was able to create a first draft of what I wanted my Portfolio Website to look like.
+The wireframe was made in [Balsamiq][Balsamiq]. I was able to create a first draft of what I wanted my portfolio website to look like.
 Along the way of building my website I discovered that some features I made in my wireframe were not functional or difficult to create.
 
 So my website has not become exactly like the wireframe I created.
