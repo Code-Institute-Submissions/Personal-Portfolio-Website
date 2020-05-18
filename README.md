@@ -149,6 +149,8 @@ I followed the next steps to deploy my page on the GitHub pages:
 * Code from the "Putting it all together/ Mini project" from the User Centric Frontend Development Module of Code Institute. Thanks to this mini project I was able to create a progress bar and footer with social links.
 * Code from [W3schools.com][8] for making column cards and how to put a navigation bar on my homepage image.
 
+
+
 *I want to thank my mentor Brian Macharia for guiding me through the process of making my Portfolio Website.*
 
 
