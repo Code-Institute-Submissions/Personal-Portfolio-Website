@@ -101,13 +101,13 @@ A modal (in CSS code) will let visitors know that this contact form does not sen
 This site was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness. 
 
 Testing problems I encountered:
-* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size
-I adjusted the font sizes on the Home page and made them responsive.
-* I discovered that I had difficulty setting the right media query for the iphone 5, .......
-* Downloading my CV gave a "failed- No File" error. I discovered ....
-* Using justify for my paragraph text looked good on big screens, but not so on smaller screens. So I went back changing it to center the position of the text.
-* With the W3C HTML validation tool I checked my HTML code on errors. My only error in the HTML code was that: "the element button must not appear as a descendant of the a element". If I tried to change the code for my CV button, I wasn't able to see the button on my website as I wanted and couldn't download my CV anymore. 
-* With the W3C validator for CSS I discovered 33 bootsrap errors in my CSS code and 684 warnings I didnt understand. With the help of my mentor I understood the problem and discovered that....
+* Everytime I tested the responsiveness on all devices, I discovered something was off in the font-size on small devices, especially on the iPhone5.
+I adjusted the font sizes H1 and H4 on the Home page and made them responsive.
+* Downloading my CV gave a "failed- No File" error. I discovered that I had my href source wrongly typed. href="../assets/cv/cvmarjolein.pdf" instead of href="assets/cv/cvmarjolein.pdf".
+* Using justify for my main text did not look good on smaller screens. So I changed it to left-align which looked better.
+* With the W3C HTML validation tool I checked my HTML code and had a few errors like: "the element button must not appear as a descendant of the a element". So I removed the button for downloading my CV.
+And I did not put the language in my NL-index.html to lang="nl"
+* With the W3C validator for CSS I discovered no errors.
 
 **Deployment**
 
