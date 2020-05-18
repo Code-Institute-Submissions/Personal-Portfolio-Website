@@ -152,7 +152,7 @@ I followed the next steps to deploy my page on the GitHub pages:
 
 
 [DEMO]: <https://sweetzia.github.io/Personal-Portfolio-Website/>
-[CV]: <https://ce5c0417-5fdf-45d0-b44e-13840f2b8e52.ws-eu01.gitpod.io/files/download/?id=9289f9fa-a686-4990-afac-2b146146de6d>
+[CV]: <https://github.com/Sweetzia/Personal-Portfolio-Website/blob/7f2d15e5145f431b878ef22e3ec3539b07ccfb1d/assets/cv/cvmarjolein.pdf>
 
 [a]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/Home.png>
 [b]: <https://github.com/Sweetzia/Personal-portfolio-website/blob/31421d60a047e4eef5cb25aebdeefed2674e2e13/wireframes/About.png>
