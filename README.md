@@ -19,7 +19,7 @@ Since I am from the Netherlands, I made it a bilingual portfolio website.
 
 For a demo of my Portfolio Website click [HERE][DEMO]
 
-![](https://f399b740-2bb1-44d0-862a-c603613d82f6.ws-eu01.gitpod.io/files/download/?id=dfa8a281-1948-4fca-afb8-e7ab5fd6f857)
+![Desktop Website](https://b78c2fb4-c268-4df6-a778-304552a34328.ws-eu01.gitpod.io/mini-browser/workspace/Personal-Portfolio-Website/assets/images/Desktop%20Website.gif)
 
 **Strategy**
 
